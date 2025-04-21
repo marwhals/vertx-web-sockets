@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - TestMainVerticle</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>TestMainVerticle</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.websocketsexample.web_sockets_example.html">com.websocketsexample.web_sockets_example</a> &gt; TestMainVerticle</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">6.770s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">can_connect_to_web_socket_server(Vertx, VertxTestContext)</td>
+<td class="success">0.103s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">can_recieve_multiple_messages(Vertx, VertxTestContext)</td>
+<td class="success">6.667s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>?[33m16:09:11.342?[0;39m ?[34mINFO?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mc.w.web_sockets_example.MainVerticle?[0;39m - HTTP server started on port 8900
+?[33m16:09:11.663?[0;39m ?[34mINFO?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mc.w.web_sockets_example.WebSocketHandler?[0;39m - Opening web socket connection: /websocket-example/simple/prices null
+?[33m16:09:11.696?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mc.w.web_sockets_example.TestMainVerticle?[0;39m - Recieved message: Connected to server web socket
+?[33m16:09:11.696?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mc.w.web_sockets_example.TestMainVerticle?[0;39m - Not enough messages - currently 0 expect 5: 
+?[33m16:09:12.218?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mc.w.web_sockets_example.PriceBroadcast?[0;39m - Push update to 1 clients!
+?[33m16:09:12.287?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mc.w.web_sockets_example.TestMainVerticle?[0;39m - Recieved message: {&quot;symbol&quot;:&quot;XYZ&quot;,&quot;value&quot;:850}
+?[33m16:09:12.287?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mc.w.web_sockets_example.TestMainVerticle?[0;39m - Not enough messages - currently 1 expect 5: 
+?[33m16:09:13.210?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mc.w.web_sockets_example.PriceBroadcast?[0;39m - Push update to 1 clients!
+?[33m16:09:13.211?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mc.w.web_sockets_example.TestMainVerticle?[0;39m - Recieved message: {&quot;symbol&quot;:&quot;XYZ&quot;,&quot;value&quot;:825}
+?[33m16:09:13.211?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mc.w.web_sockets_example.TestMainVerticle?[0;39m - Not enough messages - currently 2 expect 5: 
+?[33m16:09:14.213?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mc.w.web_sockets_example.PriceBroadcast?[0;39m - Push update to 1 clients!
+?[33m16:09:14.214?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mc.w.web_sockets_example.TestMainVerticle?[0;39m - Recieved message: {&quot;symbol&quot;:&quot;XYZ&quot;,&quot;value&quot;:769}
+?[33m16:09:14.214?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mc.w.web_sockets_example.TestMainVerticle?[0;39m - Not enough messages - currently 3 expect 5: 
+?[33m16:09:15.215?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mc.w.web_sockets_example.PriceBroadcast?[0;39m - Push update to 1 clients!
+?[33m16:09:15.217?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mc.w.web_sockets_example.TestMainVerticle?[0;39m - Recieved message: {&quot;symbol&quot;:&quot;XYZ&quot;,&quot;value&quot;:440}
+?[33m16:09:15.217?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mc.w.web_sockets_example.TestMainVerticle?[0;39m - Not enough messages - currently 4 expect 5: 
+?[33m16:09:16.216?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mc.w.web_sockets_example.PriceBroadcast?[0;39m - Push update to 1 clients!
+?[33m16:09:16.218?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mc.w.web_sockets_example.TestMainVerticle?[0;39m - Recieved message: {&quot;symbol&quot;:&quot;XYZ&quot;,&quot;value&quot;:106}
+?[33m16:09:16.218?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mc.w.web_sockets_example.TestMainVerticle?[0;39m - Not enough messages - currently 5 expect 5: 
+?[33m16:09:17.229?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mc.w.web_sockets_example.PriceBroadcast?[0;39m - Push update to 1 clients!
+?[33m16:09:17.231?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mc.w.web_sockets_example.TestMainVerticle?[0;39m - Recieved message: {&quot;symbol&quot;:&quot;XYZ&quot;,&quot;value&quot;:527}
+?[33m16:09:17.239?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mc.w.web_sockets_example.WebSocketHandler?[0;39m - Received message: ?� from client null
+?[33m16:09:17.244?[0;39m ?[34mINFO?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mc.w.web_sockets_example.WebSocketHandler?[0;39m - Connection closed: null
+?[33m16:09:17.446?[0;39m ?[34mINFO?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mc.w.web_sockets_example.MainVerticle?[0;39m - HTTP server started on port 8900
+?[33m16:09:17.453?[0;39m ?[34mINFO?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mc.w.web_sockets_example.WebSocketHandler?[0;39m - Opening web socket connection: /websocket-example/simple/prices null
+?[33m16:09:17.455?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-1]?[0;39m ?[36mc.w.web_sockets_example.TestMainVerticle?[0;39m - Recieved message: Connected to server web socket
+?[33m16:09:17.462?[0;39m ?[39mDEBUG?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mc.w.web_sockets_example.WebSocketHandler?[0;39m - Received message: ?� from client null
+?[33m16:09:17.462?[0;39m ?[34mINFO?[0;39m ?[32m[vert.x-eventloop-thread-0]?[0;39m ?[36mc.w.web_sockets_example.WebSocketHandler?[0;39m - Connection closed: null
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.5</a> at 21 Apr 2025, 16:09:18</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+§[33m16:09:11.342[0;39m [34mINFO[0;39m [32m[vert.x-eventloop-thread-0][0;39m [36mc.w.web_sockets_example.MainVerticle[0;39m - HTTP server started on port 8900
+Ï[33m16:09:11.663[0;39m [34mINFO[0;39m [32m[vert.x-eventloop-thread-0][0;39m [36mc.w.web_sockets_example.WebSocketHandler[0;39m - Opening web socket connection: /websocket-example/simple/prices null
+¼[33m16:09:11.696[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-1][0;39m [36mc.w.web_sockets_example.TestMainVerticle[0;39m - Recieved message: Connected to server web socket
+¸[33m16:09:11.696[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-1][0;39m [36mc.w.web_sockets_example.TestMainVerticle[0;39m - Not enough messages - currently 0 expect 5: 
+£[33m16:09:12.218[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-0][0;39m [36mc.w.web_sockets_example.PriceBroadcast[0;39m - Push update to 1 clients!
+º[33m16:09:12.287[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-1][0;39m [36mc.w.web_sockets_example.TestMainVerticle[0;39m - Recieved message: {"symbol":"XYZ","value":850}
+¸[33m16:09:12.287[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-1][0;39m [36mc.w.web_sockets_example.TestMainVerticle[0;39m - Not enough messages - currently 1 expect 5: 
+£[33m16:09:13.210[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-0][0;39m [36mc.w.web_sockets_example.PriceBroadcast[0;39m - Push update to 1 clients!
+º[33m16:09:13.211[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-1][0;39m [36mc.w.web_sockets_example.TestMainVerticle[0;39m - Recieved message: {"symbol":"XYZ","value":825}
+¸[33m16:09:13.211[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-1][0;39m [36mc.w.web_sockets_example.TestMainVerticle[0;39m - Not enough messages - currently 2 expect 5: 
+£[33m16:09:14.213[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-0][0;39m [36mc.w.web_sockets_example.PriceBroadcast[0;39m - Push update to 1 clients!
+º[33m16:09:14.214[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-1][0;39m [36mc.w.web_sockets_example.TestMainVerticle[0;39m - Recieved message: {"symbol":"XYZ","value":769}
+¸[33m16:09:14.214[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-1][0;39m [36mc.w.web_sockets_example.TestMainVerticle[0;39m - Not enough messages - currently 3 expect 5: 
+£[33m16:09:15.215[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-0][0;39m [36mc.w.web_sockets_example.PriceBroadcast[0;39m - Push update to 1 clients!
+º[33m16:09:15.217[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-1][0;39m [36mc.w.web_sockets_example.TestMainVerticle[0;39m - Recieved message: {"symbol":"XYZ","value":440}
+¸[33m16:09:15.217[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-1][0;39m [36mc.w.web_sockets_example.TestMainVerticle[0;39m - Not enough messages - currently 4 expect 5: 
+£[33m16:09:16.216[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-0][0;39m [36mc.w.web_sockets_example.PriceBroadcast[0;39m - Push update to 1 clients!
+º[33m16:09:16.218[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-1][0;39m [36mc.w.web_sockets_example.TestMainVerticle[0;39m - Recieved message: {"symbol":"XYZ","value":106}
+¸[33m16:09:16.218[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-1][0;39m [36mc.w.web_sockets_example.TestMainVerticle[0;39m - Not enough messages - currently 5 expect 5: 
+£[33m16:09:17.229[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-0][0;39m [36mc.w.web_sockets_example.PriceBroadcast[0;39m - Push update to 1 clients!
+º[33m16:09:17.231[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-1][0;39m [36mc.w.web_sockets_example.TestMainVerticle[0;39m - Recieved message: {"symbol":"XYZ","value":527}
+³[33m16:09:17.239[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-0][0;39m [36mc.w.web_sockets_example.WebSocketHandler[0;39m - Received message: ï¿½ from client null
+¢[33m16:09:17.244[0;39m [34mINFO[0;39m [32m[vert.x-eventloop-thread-0][0;39m [36mc.w.web_sockets_example.WebSocketHandler[0;39m - Connection closed: null
+§[33m16:09:17.446[0;39m [34mINFO[0;39m [32m[vert.x-eventloop-thread-0][0;39m [36mc.w.web_sockets_example.MainVerticle[0;39m - HTTP server started on port 8900
+Ï[33m16:09:17.453[0;39m [34mINFO[0;39m [32m[vert.x-eventloop-thread-0][0;39m [36mc.w.web_sockets_example.WebSocketHandler[0;39m - Opening web socket connection: /websocket-example/simple/prices null
+¼[33m16:09:17.455[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-1][0;39m [36mc.w.web_sockets_example.TestMainVerticle[0;39m - Recieved message: Connected to server web socket
+³[33m16:09:17.462[0;39m [39mDEBUG[0;39m [32m[vert.x-eventloop-thread-0][0;39m [36mc.w.web_sockets_example.WebSocketHandler[0;39m - Received message: ï¿½ from client null
+¢[33m16:09:17.462[0;39m [34mINFO[0;39m [32m[vert.x-eventloop-thread-0][0;39m [36mc.w.web_sockets_example.WebSocketHandler[0;39m - Connection closed: null
