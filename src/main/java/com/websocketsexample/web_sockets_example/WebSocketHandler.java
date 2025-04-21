@@ -26,8 +26,7 @@ public class WebSocketHandler implements Handler<ServerWebSocket> {
       return;
     }
 
-    LOG.info("Opening web socket connection: {} {}", serverWebSocket.path(), serverWebSocket.textHandlerID()); //Check NULL
-    serverWebSocket.accept();
+    LOG.info("Opening web socket connection: {} {}", serverWebSocket.path(), serverWebSocket.textHandlerID());
     serverWebSocket.frameHandler(receivedFrame -> frameHandler(serverWebSocket, receivedFrame));
     serverWebSocket.endHandler(onClose -> {
       LOG.info("Connection closed: {}", serverWebSocket.textHandlerID());
