@@ -1,5 +1,9 @@
 = Web-sockets-example
 
+A basic web sockets example
+
+---
+
 image:https://img.shields.io/badge/vert.x-4.5.14-purple.svg[link="https://vertx.io"]
 
 This application was generated using http://start.vertx.io
